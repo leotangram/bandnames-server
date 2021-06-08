@@ -23,8 +23,8 @@
     ></script>
     <script>
       const socket = io('http://localhost:8080')
-      socket.on('message-from-server', (data) => {
-        messages.innerHTML += `<li>${data.message}</li>`
+      socket.on('current-bands', bands => {
+        console.log(bands)
       })
     </script>
   </body>
