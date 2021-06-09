@@ -1,5 +1,5 @@
 {
-  "name": "bandnames",
+  "name": "01-socket-server-basic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,24 +8,12 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leotangram/01-socket-server-basic.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leotangram/01-socket-server-basic/issues"
-  },
-  "homepage": "https://github.com/leotangram/01-socket-server-basic#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "socket.io": "^4.1.2",
-    "uuid": "^8.3.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.1"
   }
 }
